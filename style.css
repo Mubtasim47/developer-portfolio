@@ -45,6 +45,7 @@ h2 {
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    padding-top: 10px;
 }
 
 .middle-area{
@@ -85,5 +86,9 @@ h2 {
 footer small{
     display: block;
     text-align: center;
-    padding: 20px 10px;
+    padding-bottom: 10px;
+}
+
+.experience-area h1{
+    margin-left: 20px;
 }
