@@ -9,3 +9,25 @@ h1{
 .coral-color{
     color: coral;
 }
+
+section{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(mediumseagreen, #62b889);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
