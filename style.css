@@ -11,7 +11,7 @@ h2 {
     font-size: 40px;
 }
 
-.name-color{
+.green-color{
     color: mediumseagreen;
 }
 
@@ -19,14 +19,14 @@ h2 {
     color: rgb(133, 80, 255);
 }
 
-section{
+.flex-container{
     display: flex;
     margin-bottom: 120px;
 }
 
 .half-width{
     width: 50%;
-    padding-left: 7%;
+    padding-left: 5%;
 }
 
 .half-width img {
@@ -52,4 +52,38 @@ section{
     background-repeat: no-repeat;
     background-position: right bottom;
     padding-bottom: 50px;
+}
+
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.experience-item{
+    box-shadow: 10px 10px 30px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    border-radius: 5px;
+}
+
+#experienced-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+
+#junior-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(mediumseagreen, #5ddabf);
+    border-image-slice: 1;
+}
+
+footer small{
+    display: block;
+    text-align: center;
+    padding: 20px;
 }
